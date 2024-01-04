@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="Finance Request App Config">826483f4e4223110e579bbfb486a8d5f</app_config>
+        <description/>
+        <extension_point/>
+        <fields>sysid</fields>
+        <icon/>
+        <name>Visualization Designer</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>visualization-designer</route_type>
+        <screen_type display_value="Visualization Designer">ca6483f4d42231105c641f2e9f6de353</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 13:07:05</sys_created_on>
+        <sys_id>466483f449223110972037abf5064e53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Visualization Designer</sys_name>
+        <sys_package display_value="Finance Request" source="x_1178586_financ_0">2194808c472231107b748a5f746d43fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Request">2194808c472231107b748a5f746d43fd</sys_scope>
+        <sys_update_name>sys_ux_app_route_466483f449223110972037abf5064e53</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 13:07:05</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Finance Request">2194808c472231107b748a5f746d43fd</application>
+        <file_path/>
+        <instance_id>15b38ff0db2313c44c1ff70fbf96190a</instance_id>
+        <instance_name>dev66935</instance_name>
+        <name>sys_ux_app_route_466483f449223110972037abf5064e53</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="Finance Request App Config">826483f4e4223110e579bbfb486a8d5f</app_config><description/><extension_point/><fields>sysid</fields><icon/><name>Visualization Designer</name><optional_parameters/><order>0</order><parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent><parent_macroponent_composition_element_id/><route_type>visualization-designer</route_type><screen_type display_value="Visualization Designer">ca6483f4d42231105c641f2e9f6de353</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-14 13:07:05</sys_created_on><sys_id>466483f449223110972037abf5064e53</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Visualization Designer</sys_name><sys_package display_value="Finance Request" source="x_1178586_financ_0">2194808c472231107b748a5f746d43fd</sys_package><sys_policy/><sys_scope display_value="Finance Request">2194808c472231107b748a5f746d43fd</sys_scope><sys_update_name>sys_ux_app_route_466483f449223110972037abf5064e53</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-14 13:07:05</sys_updated_on></sys_ux_app_route></record_update>]]></payload>
+        <payload_hash>484934400</payload_hash>
+        <record_name>Visualization Designer</record_name>
+        <reverted_from/>
+        <source>ad319a00471231107b748a5f746d4310</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-10-30 15:12:14</sys_created_on>
+        <sys_id>ef191275472231107b748a5f746d437b</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18b81247cb00000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX App Route</type>
+        <update_guid>af1912756c2231102832a564b5873b7b</update_guid>
+        <update_guid_history>af1912756c2231102832a564b5873b7b:484934400</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kiril.shandaliuk</sys_created_by>
+        <sys_created_on>2023-11-17 12:31:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>292232cea9044a01bc464624780f4c19</sys_id>
+        <sys_metadata>466483f449223110972037abf5064e53</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Visualization Designer</sys_name>
+        <sys_package display_value="Finance Request" source="x_1178586_financ_0">2194808c472231107b748a5f746d43fd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Finance Request">2194808c472231107b748a5f746d43fd</sys_scope>
+        <sys_scope_delete display_value="">c3e754edfef844aca6c7ae07ee076d41</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_466483f449223110972037abf5064e53</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_466483f449223110972037abf5064e53">ef191275472231107b748a5f746d437b</sys_update_version>
+        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+        <sys_updated_on>2023-11-17 12:31:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

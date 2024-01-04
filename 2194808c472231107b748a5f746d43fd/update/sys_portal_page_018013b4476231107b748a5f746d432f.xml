@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2024-01-04 13:30:24">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles/>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>kiril.shandaliuk</sys_created_by>
+        <sys_created_on>2023-11-14 13:59:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>018013b4476231107b748a5f746d432f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA Finance Request Dash - New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Finance Request" source="x_1178586_financ_0">2194808c472231107b748a5f746d43fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Request">2194808c472231107b748a5f746d43fd</sys_scope>
+        <sys_update_name>sys_portal_page_018013b4476231107b748a5f746d432f</sys_update_name>
+        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+        <sys_updated_on>2023-11-14 13:59:57</sys_updated_on>
+        <title>PA Finance Request Dash - New Tab</title>
+        <user/>
+        <view>pa_finance_request_dash_-_new_tab</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Finance Request Dash - New Tab">018013b4476231107b748a5f746d432f</page>
+                <summary>The total of active requests by Priority.</summary>
+                <sys_created_by>kiril.shandaliuk</sys_created_by>
+                <sys_created_on>2023-11-14 14:00:51</sys_created_on>
+                <sys_id>16b09f34476231107b748a5f746d433c</sys_id>
+                <sys_mod_count>2</sys_mod_count>
+                <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+                <sys_updated_on>2023-11-14 15:19:06</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2023-11-14 06:00:51">16b09f34476231107b748a5f746d433c</portal_section>
+                        <sys_created_by>kiril.shandaliuk</sys_created_by>
+                        <sys_created_on>2023-11-14 14:00:51</sys_created_on>
+                        <sys_id>1eb09f34476231107b748a5f746d433d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+                        <sys_updated_on>2023-11-14 14:00:51</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2023-11-14 06:00:51">16b09f34476231107b748a5f746d433c</portal_section>
+                        <sys_created_by>kiril.shandaliuk</sys_created_by>
+                        <sys_created_on>2023-11-14 14:00:51</sys_created_on>
+                        <sys_id>5ab09f34476231107b748a5f746d433d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+                        <sys_updated_on>2023-11-14 14:00:51</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2023-11-14 06:00:51">16b09f34476231107b748a5f746d433c</portal_section>
+                        <sys_created_by>kiril.shandaliuk</sys_created_by>
+                        <sys_created_on>2023-11-14 14:00:51</sys_created_on>
+                        <sys_id>96b09f34476231107b748a5f746d433d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+                        <sys_updated_on>2023-11-14 14:00:51</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2023-11-14 06:00:51">16b09f34476231107b748a5f746d433c</portal_section>
+                        <sys_created_by>kiril.shandaliuk</sys_created_by>
+                        <sys_created_on>2023-11-14 14:00:51</sys_created_on>
+                        <sys_id>dab09f34476231107b748a5f746d433c</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+                        <sys_updated_on>2023-11-14 15:19:06</sys_updated_on>
+                        <value>94a2237c47a231107b748a5f746d438f</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2023-11-14 06:00:51">16b09f34476231107b748a5f746d433c</portal_section>
+                        <sys_created_by>kiril.shandaliuk</sys_created_by>
+                        <sys_created_on>2023-11-14 14:00:51</sys_created_on>
+                        <sys_id>deb09f34476231107b748a5f746d433d</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+                        <sys_updated_on>2023-11-14 15:19:06</sys_updated_on>
+                        <value>The total of active requests by Priority.</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Finance Request Dash - New Tab">018013b4476231107b748a5f746d432f</page>
+                <summary>The total of active requests by Status.</summary>
+                <sys_created_by>kiril.shandaliuk</sys_created_by>
+                <sys_created_on>2023-11-14 14:01:01</sys_created_on>
+                <sys_id>28c093b4476231107b748a5f746d4323</sys_id>
+                <sys_mod_count>2</sys_mod_count>
+                <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+                <sys_updated_on>2023-11-14 15:17:39</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2023-11-14 06:01:01">28c093b4476231107b748a5f746d4323</portal_section>
+                        <sys_created_by>kiril.shandaliuk</sys_created_by>
+                        <sys_created_on>2023-11-14 14:01:01</sys_created_on>
+                        <sys_id>20c093b4476231107b748a5f746d4324</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+                        <sys_updated_on>2023-11-14 14:01:01</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2023-11-14 06:01:01">28c093b4476231107b748a5f746d4323</portal_section>
+                        <sys_created_by>kiril.shandaliuk</sys_created_by>
+                        <sys_created_on>2023-11-14 14:01:01</sys_created_on>
+                        <sys_id>68c093b4476231107b748a5f746d4324</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+                        <sys_updated_on>2023-11-14 15:17:39</sys_updated_on>
+                        <value>The total of active requests by Status.</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2023-11-14 06:01:01">28c093b4476231107b748a5f746d4323</portal_section>
+                        <sys_created_by>kiril.shandaliuk</sys_created_by>
+                        <sys_created_on>2023-11-14 14:01:01</sys_created_on>
+                        <sys_id>a4c093b4476231107b748a5f746d4324</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+                        <sys_updated_on>2023-11-14 14:01:01</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2023-11-14 06:01:01">28c093b4476231107b748a5f746d4323</portal_section>
+                        <sys_created_by>kiril.shandaliuk</sys_created_by>
+                        <sys_created_on>2023-11-14 14:01:01</sys_created_on>
+                        <sys_id>a8c093b4476231107b748a5f746d4323</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+                        <sys_updated_on>2023-11-14 15:17:39</sys_updated_on>
+                        <value>1f422b3c47a231107b748a5f746d43a0</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2023-11-14 06:01:01">28c093b4476231107b748a5f746d4323</portal_section>
+                        <sys_created_by>kiril.shandaliuk</sys_created_by>
+                        <sys_created_on>2023-11-14 14:01:01</sys_created_on>
+                        <sys_id>e0c093b4476231107b748a5f746d4324</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+                        <sys_updated_on>2023-11-14 14:01:01</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Finance Request Dash - New Tab">018013b4476231107b748a5f746d432f</page>
+                <summary>Requests created per month</summary>
+                <sys_created_by>kiril.shandaliuk</sys_created_by>
+                <sys_created_on>2023-11-14 14:01:06</sys_created_on>
+                <sys_id>35c093b4476231107b748a5f746d4328</sys_id>
+                <sys_mod_count>2</sys_mod_count>
+                <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+                <sys_updated_on>2023-11-14 14:20:19</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2023-11-14 06:01:06">35c093b4476231107b748a5f746d4328</portal_section>
+                        <sys_created_by>kiril.shandaliuk</sys_created_by>
+                        <sys_created_on>2023-11-14 14:01:06</sys_created_on>
+                        <sys_id>3dc093b4476231107b748a5f746d4328</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+                        <sys_updated_on>2023-11-14 14:01:06</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2023-11-14 06:01:06">35c093b4476231107b748a5f746d4328</portal_section>
+                        <sys_created_by>kiril.shandaliuk</sys_created_by>
+                        <sys_created_on>2023-11-14 14:01:06</sys_created_on>
+                        <sys_id>75c093b4476231107b748a5f746d4329</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+                        <sys_updated_on>2023-11-14 14:20:19</sys_updated_on>
+                        <value>Requests created per month</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2023-11-14 06:01:06">35c093b4476231107b748a5f746d4328</portal_section>
+                        <sys_created_by>kiril.shandaliuk</sys_created_by>
+                        <sys_created_on>2023-11-14 14:01:06</sys_created_on>
+                        <sys_id>b1c093b4476231107b748a5f746d4329</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+                        <sys_updated_on>2023-11-14 14:01:06</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2023-11-14 06:01:06">35c093b4476231107b748a5f746d4328</portal_section>
+                        <sys_created_by>kiril.shandaliuk</sys_created_by>
+                        <sys_created_on>2023-11-14 14:01:06</sys_created_on>
+                        <sys_id>b5c093b4476231107b748a5f746d4328</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+                        <sys_updated_on>2023-11-14 14:20:19</sys_updated_on>
+                        <value>0b251bb8476231107b748a5f746d43c9</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2023-11-14 06:01:06">35c093b4476231107b748a5f746d4328</portal_section>
+                        <sys_created_by>kiril.shandaliuk</sys_created_by>
+                        <sys_created_on>2023-11-14 14:01:06</sys_created_on>
+                        <sys_id>fdc093b4476231107b748a5f746d4328</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+                        <sys_updated_on>2023-11-14 14:01:06</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Finance Request Dash - New Tab">018013b4476231107b748a5f746d432f</page>
+                <summary>The total count of requests by Category and Subcategory.</summary>
+                <sys_created_by>kiril.shandaliuk</sys_created_by>
+                <sys_created_on>2023-11-14 14:01:03</sys_created_on>
+                <sys_id>8dc01fb4476231107b748a5f746d4323</sys_id>
+                <sys_mod_count>2</sys_mod_count>
+                <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+                <sys_updated_on>2023-11-14 14:28:37</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2023-11-14 06:01:03">8dc01fb4476231107b748a5f746d4323</portal_section>
+                        <sys_created_by>kiril.shandaliuk</sys_created_by>
+                        <sys_created_on>2023-11-14 14:01:03</sys_created_on>
+                        <sys_id>01c01fb4476231107b748a5f746d4324</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+                        <sys_updated_on>2023-11-14 14:28:37</sys_updated_on>
+                        <value>7417df3c476231107b748a5f746d43b5</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2023-11-14 06:01:03">8dc01fb4476231107b748a5f746d4323</portal_section>
+                        <sys_created_by>kiril.shandaliuk</sys_created_by>
+                        <sys_created_on>2023-11-14 14:01:03</sys_created_on>
+                        <sys_id>0dc01fb4476231107b748a5f746d4324</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+                        <sys_updated_on>2023-11-14 14:01:03</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2023-11-14 06:01:03">8dc01fb4476231107b748a5f746d4323</portal_section>
+                        <sys_created_by>kiril.shandaliuk</sys_created_by>
+                        <sys_created_on>2023-11-14 14:01:03</sys_created_on>
+                        <sys_id>49c01fb4476231107b748a5f746d4324</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+                        <sys_updated_on>2023-11-14 14:01:03</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2023-11-14 06:01:03">8dc01fb4476231107b748a5f746d4323</portal_section>
+                        <sys_created_by>kiril.shandaliuk</sys_created_by>
+                        <sys_created_on>2023-11-14 14:01:03</sys_created_on>
+                        <sys_id>85c01fb4476231107b748a5f746d4324</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+                        <sys_updated_on>2023-11-14 14:01:03</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2023-11-14 06:01:03">8dc01fb4476231107b748a5f746d4323</portal_section>
+                        <sys_created_by>kiril.shandaliuk</sys_created_by>
+                        <sys_created_on>2023-11-14 14:01:03</sys_created_on>
+                        <sys_id>cdc01fb4476231107b748a5f746d4324</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+                        <sys_updated_on>2023-11-14 14:28:37</sys_updated_on>
+                        <value>The total count of requests by Category and Subcategory.</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

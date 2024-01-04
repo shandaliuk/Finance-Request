@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1178586_financ_0.GetUserProperties</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Get different user info.</description>
+        <name>GetUserProperties</name>
+        <script><![CDATA[var GetUserProperties = Class.create();
+GetUserProperties.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    getPhone: function() {
+        var grUser = new GlideRecord('sys_user');
+        return grUser.getValue('phone');
+    },
+    getEmail: function() {
+        var grUser = this.getParameter('sysparm_user');
+        return grUser.getValue('email');
+    },
+    getLocation: function() {
+        var grUser = new GlideRecord('sys_user');
+
+        if (grUser.get(this.getParameter('sysparm_user'))) {
+            return grUser.getValue('location');
+        }
+    },
+    type: 'GetUserProperties'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>kiril.shandaliuk</sys_created_by>
+        <sys_created_on>2024-01-02 12:59:22</sys_created_on>
+        <sys_id>06e7dbec47e331107b748a5f746d431a</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>GetUserProperties</sys_name>
+        <sys_package display_value="Finance Request" source="x_1178586_financ_0">2194808c472231107b748a5f746d43fd</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Finance Request">2194808c472231107b748a5f746d43fd</sys_scope>
+        <sys_update_name>sys_script_include_06e7dbec47e331107b748a5f746d431a</sys_update_name>
+        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+        <sys_updated_on>2024-01-02 13:30:52</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Finance Request">2194808c472231107b748a5f746d43fd</application>
+        <file_path/>
+        <instance_id>15b38ff0db2313c44c1ff70fbf96190a</instance_id>
+        <instance_name>dev66935</instance_name>
+        <name>sys_script_include_06e7dbec47e331107b748a5f746d431a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1178586_financ_0.GetUserProperties&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description&gt;Get different user info.&lt;/description&gt;&lt;name&gt;GetUserProperties&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var GetUserProperties = Class.create();
+GetUserProperties.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    getPhone: function() {
+        var grUser = new GlideRecord('sys_user');
+        return grUser.getValue('phone');
+    },
+    getEmail: function() {
+        var grUser = this.getParameter('sysparm_user');
+        return grUser.getValue('email');
+    },
+    getLocation: function() {
+        var grUser = new GlideRecord('sys_user');
+
+        if (grUser.get(this.getParameter('sysparm_user'))) {
+            return grUser.getValue('location');
+        }
+    },
+    type: 'GetUserProperties'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;kiril.shandaliuk&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-02 12:59:22&lt;/sys_created_on&gt;&lt;sys_id&gt;06e7dbec47e331107b748a5f746d431a&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;GetUserProperties&lt;/sys_name&gt;&lt;sys_package display_value="Finance Request" source="x_1178586_financ_0"&gt;2194808c472231107b748a5f746d43fd&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Finance Request"&gt;2194808c472231107b748a5f746d43fd&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_06e7dbec47e331107b748a5f746d431a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;kiril.shandaliuk&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-02 13:30:52&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2000961844</payload_hash>
+        <record_name>GetUserProperties</record_name>
+        <reverted_from/>
+        <source>3194c08c472231107b748a5f746d4301</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kiril.shandaliuk</sys_created_by>
+        <sys_created_on>2024-01-02 13:30:52</sys_created_on>
+        <sys_id>38cfd768472731107b748a5f746d43fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cca5eb1760000001</sys_recorded_at>
+        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+        <sys_updated_on>2024-01-02 13:30:52</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>30cfd768df273110b4ad460b1eabbbfd</update_guid>
+        <update_guid_history>30cfd768df273110b4ad460b1eabbbfd:-2000961844,30ee5be4482731108a9d16bef2c1178d:270296491,d9add7e0bc273110d273b2d2ee6adb51:1857778603,079dd764e6273110269a8db7b8cd2626:1209548825,3ea85b20b62731106fdb9b4160f83aba:1023296034,2388d72049273110f4645cad6ab7514d:1857778603</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kiril.shandaliuk</sys_created_by>
+        <sys_created_on>2024-01-02 13:33:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>4c687105bccb48089088e823ffae4d24</sys_id>
+        <sys_metadata>06e7dbec47e331107b748a5f746d431a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GetUserProperties</sys_name>
+        <sys_package display_value="Finance Request" source="x_1178586_financ_0">2194808c472231107b748a5f746d43fd</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Finance Request">2194808c472231107b748a5f746d43fd</sys_scope>
+        <sys_scope_delete display_value="">c3e754edfef844aca6c7ae07ee076d41</sys_scope_delete>
+        <sys_update_name>sys_script_include_06e7dbec47e331107b748a5f746d431a</sys_update_name>
+        <sys_update_version display_value="sys_script_include_06e7dbec47e331107b748a5f746d431a">38cfd768472731107b748a5f746d43fd</sys_update_version>
+        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+        <sys_updated_on>2024-01-02 13:33:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas">
+    <sys_grid_canvas action="INSERT_OR_UPDATE">
+        <legacy_page display_value="PA Finance Request Dash - New Tab">018013b4476231107b748a5f746d432f</legacy_page>
+        <name>PA Finance Request Dash - New Tab</name>
+        <sys_class_name>sys_grid_canvas</sys_class_name>
+        <sys_created_by>kiril.shandaliuk</sys_created_by>
+        <sys_created_on>2023-11-14 13:59:57</sys_created_on>
+        <sys_id>c98097b4476231107b748a5f746d4374</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA Finance Request Dash - New Tab</sys_name>
+        <sys_package display_value="Finance Request" source="x_1178586_financ_0">2194808c472231107b748a5f746d43fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Request">2194808c472231107b748a5f746d43fd</sys_scope>
+        <sys_update_name>sys_grid_canvas_c98097b4476231107b748a5f746d4374</sys_update_name>
+        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+        <sys_updated_on>2023-11-14 13:59:57</sys_updated_on>
+    </sys_grid_canvas>
+</record_update>

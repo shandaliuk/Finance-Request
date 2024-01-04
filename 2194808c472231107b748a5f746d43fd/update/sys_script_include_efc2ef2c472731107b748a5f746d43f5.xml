@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1178586_financ_0.GetRequestorInfo</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Get requestor general info.</description>
+        <name>GetRequestorInfo</name>
+        <script><![CDATA[var GetRequestorInfo = Class.create();
+GetRequestorInfo.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    getInfo: function() {
+        var result = this.newItem("result");
+        var logged_user = gs.getUserID();
+		
+		if (this.getParameter("sysparm_user")) {
+			logged_user = this.getParameter("sysparm_user");
+		}
+
+        var user_detail = new GlideRecord('sys_user');
+        user_detail.addQuery('sys_id', logged_user);
+        user_detail.query();
+        while (user_detail.next()) {
+            result.setAttribute("user", user_detail.sys_id);
+            result.setAttribute("phone", user_detail.phone);
+            result.setAttribute("email", user_detail.email);
+            result.setAttribute("location", user_detail.location);
+        }
+    },
+    type: 'GetRequestorInfo'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>kiril.shandaliuk</sys_created_by>
+        <sys_created_on>2024-01-02 13:46:31</sys_created_on>
+        <sys_id>efc2ef2c472731107b748a5f746d43f5</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>GetRequestorInfo</sys_name>
+        <sys_package display_value="Finance Request" source="x_1178586_financ_0">2194808c472231107b748a5f746d43fd</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Finance Request">2194808c472231107b748a5f746d43fd</sys_scope>
+        <sys_update_name>sys_script_include_efc2ef2c472731107b748a5f746d43f5</sys_update_name>
+        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+        <sys_updated_on>2024-01-02 14:21:56</sys_updated_on>
+    </sys_script_include>
+</record_update>

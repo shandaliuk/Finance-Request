@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_email_layout">
+    <sys_email_layout action="INSERT_OR_UPDATE">
+        <advanced>true</advanced>
+        <advanced_layout><![CDATA[<div class="notification-wrapper">
+    <div class="top-box"><br /><img class="top-logo" src="x_1178586_financ_0.procise-logo.pngx" alt="logo" /></div>
+    <div class="container">
+    <div class="content-wrapper">
+    ${notification:body}
+    </div>
+	<div class="unsub-wrapper">
+	${NOTIF_UNSUB} | ${NOTIF_PREFS}
+	</div>
+    </div>
+    <div class="bottom-box">
+    <div class="bottom-wrapper"><img class="bottom-logo" src="x_1178586_financ_0.procise-logo.pngx" alt="logo" />
+    <p>Lindleystraße 8a, 60314 Frankfurt am Main, Germany</p>
+    <p>© 2023 Procise GmbH. All rights reserved</p>
+    </div>
+    </div>
+    </div>
+    <style>
+        .notification-wrapper {
+              font-family: arial, helvetica, sans-serif;
+         }
+          .top-box {
+            background-color: #272949;
+            padding-top: 50px;
+            padding-bottom: 100px;
+            display: flex;
+            justify-content: center;
+            background-image: url(https://dev66935.service-now.com/email_template_header.png);
+            background-repeat: no-repeat;
+            background-size: 140px;
+          }
+          .bottom-box {
+            background-color: #272949;
+            padding-top: 50px;
+            padding-bottom: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url(https://dev66935.service-now.com/email_template_footer.png);
+            background-repeat: no-repeat;
+            background-size: 700px;
+            background-position: bottom center;
+          }
+          .container {
+            background-color: #f7f7f9;
+            padding: 0px 20px;
+          }
+          .content-wrapper {
+            background-color: #FFFFFF;
+            position: relative;
+            top: -50px;
+            padding: 25px;
+            border-radius: 10px;
+          }
+          .top-logo {
+            width: 120px;
+          }
+          .bottom-logo {
+            width: 80px;
+          }
+          .bottom-wrapper {
+            text-align: center;
+            color: white;
+          }
+		  .unsub-wrapper {
+			position: relative;
+			bottom: 20px;
+			text-align:center;
+		  }
+        </style>]]></advanced_layout>
+        <description>Layout with Procise logos in header and footer of email, containing Unsubscribe and Notification Preferences.</description>
+        <layout/>
+        <name>Finance Request Procise Layout</name>
+        <sys_class_name>sys_email_layout</sys_class_name>
+        <sys_created_by>kiril.shandaliuk</sys_created_by>
+        <sys_created_on>2023-11-16 15:52:06</sys_created_on>
+        <sys_id>869cb1e147e231107b748a5f746d432a</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Finance Request Procise Layout</sys_name>
+        <sys_package display_value="Finance Request" source="x_1178586_financ_0">2194808c472231107b748a5f746d43fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Request">2194808c472231107b748a5f746d43fd</sys_scope>
+        <sys_update_name>sys_email_layout_869cb1e147e231107b748a5f746d432a</sys_update_name>
+        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+        <sys_updated_on>2023-11-16 16:14:27</sys_updated_on>
+    </sys_email_layout>
+</record_update>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition table="x_1178586_financ_0_finance_request.comments">opened_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^NQopened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description>Allow to add comments for users in "Caller" and "Opened for" fields.</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1178586_financ_0_finance_request.comments</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>kiril.shandaliuk</sys_created_by>
+        <sys_created_on>2023-11-17 12:48:52</sys_created_on>
+        <sys_id>bc0d1ab9472231107b748a5f746d4374</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1178586_financ_0_finance_request.comments</sys_name>
+        <sys_package display_value="Finance Request" source="x_1178586_financ_0">2194808c472231107b748a5f746d43fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Request">2194808c472231107b748a5f746d43fd</sys_scope>
+        <sys_update_name>sys_security_acl_bc0d1ab9472231107b748a5f746d4374</sys_update_name>
+        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+        <sys_updated_on>2023-11-17 12:48:52</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Finance Request">2194808c472231107b748a5f746d43fd</application>
+        <file_path/>
+        <instance_id>15b38ff0db2313c44c1ff70fbf96190a</instance_id>
+        <instance_name>dev66935</instance_name>
+        <name>sys_security_acl_bc0d1ab9472231107b748a5f746d4374</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition table="x_1178586_financ_0_finance_request.comments">opened_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^NQopened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><description>Allow to add comments for users in "Caller" and "Opened for" fields.</description><local_or_existing>Local</local_or_existing><name>x_1178586_financ_0_finance_request.comments</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>kiril.shandaliuk</sys_created_by><sys_created_on>2023-11-17 12:48:52</sys_created_on><sys_id>bc0d1ab9472231107b748a5f746d4374</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1178586_financ_0_finance_request.comments</sys_name><sys_package display_value="Finance Request" source="x_1178586_financ_0">2194808c472231107b748a5f746d43fd</sys_package><sys_policy/><sys_scope display_value="Finance Request">2194808c472231107b748a5f746d43fd</sys_scope><sys_update_name>sys_security_acl_bc0d1ab9472231107b748a5f746d4374</sys_update_name><sys_updated_by>kiril.shandaliuk</sys_updated_by><sys_updated_on>2023-11-17 12:48:52</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-1815718268</payload_hash>
+        <record_name>x_1178586_financ_0_finance_request.comments</record_name>
+        <reverted_from/>
+        <source>3194c08c472231107b748a5f746d4301</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kiril.shandaliuk</sys_created_by>
+        <sys_created_on>2023-11-17 12:48:53</sys_created_on>
+        <sys_id>3c0d1ab9472231107b748a5f746d4377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18bdd53b76c0000001</sys_recorded_at>
+        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+        <sys_updated_on>2023-11-17 12:48:53</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>700d1ab9ed2231102fb7009d71b5d777</update_guid>
+        <update_guid_history>700d1ab9ed2231102fb7009d71b5d777:-1815718268</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kiril.shandaliuk</sys_created_by>
+        <sys_created_on>2023-11-17 13:15:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>3cfbefb9a9164c12b9d85e3bf9987d59</sys_id>
+        <sys_metadata>bc0d1ab9472231107b748a5f746d4374</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1178586_financ_0_finance_request.comments</sys_name>
+        <sys_package display_value="Finance Request" source="x_1178586_financ_0">2194808c472231107b748a5f746d43fd</sys_package>
+        <sys_parent display_value="x_1178586_financ_0_finance_request">a88584cc472231107b748a5f746d430e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Finance Request">2194808c472231107b748a5f746d43fd</sys_scope>
+        <sys_scope_delete display_value="">c3e754edfef844aca6c7ae07ee076d41</sys_scope_delete>
+        <sys_update_name>sys_security_acl_bc0d1ab9472231107b748a5f746d4374</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_bc0d1ab9472231107b748a5f746d4374">3c0d1ab9472231107b748a5f746d4377</sys_update_version>
+        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+        <sys_updated_on>2023-11-17 13:15:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

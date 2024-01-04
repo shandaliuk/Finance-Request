@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="List">1b3707b8472231107b748a5f746d43f8</macroponent>
+        <name>List CRUD </name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({api, event, imports}) {
+  let type = '';
+	if(event.name === "NOW_RECORD_LIST_CONNECTED#SAVE_AS_REQUESTED") {
+		type = "CREATE";
+	}
+	else if (event.name  ===  "NOW_RECORD_LIST_CONNECTED#DELETE_REQUESTED") {
+		type = "DESTROY";
+	}
+	else if (event.name  ===  "NOW_RECORD_LIST_CONNECTED#RENAME_REQUESTED" ||  event.name  ===  "NOW_RECORD_LIST_CONNECTED#EDIT_COLUMNS_REQUESTED" || event.name  === "NOW_RECORD_LIST_CONNECTED#SAVE_REQUESTED") {
+		type = "UPDATE";
+	}
+
+	const CRUD = {
+		type: type,
+		options: event.payload.update,
+		timestamp: event.payload.timestamp
+	};
+	
+	api.setState('CRUD', CRUD);
+}]]></script>
+        <script_api_version>1.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>kiril.shandaliuk</sys_created_by>
+        <sys_created_on>2023-11-14 13:19:27</sys_created_on>
+        <sys_id>a737cfb8472231107b748a5f746d437d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>List CRUD </sys_name>
+        <sys_package display_value="Finance Request" source="x_1178586_financ_0">2194808c472231107b748a5f746d43fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Request">2194808c472231107b748a5f746d43fd</sys_scope>
+        <sys_update_name>sys_ux_client_script_a737cfb8472231107b748a5f746d437d</sys_update_name>
+        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+        <sys_updated_on>2023-11-14 13:19:27</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Finance Request">2194808c472231107b748a5f746d43fd</application>
+        <file_path/>
+        <instance_id>15b38ff0db2313c44c1ff70fbf96190a</instance_id>
+        <instance_name>dev66935</instance_name>
+        <name>sys_ux_client_script_a737cfb8472231107b748a5f746d437d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="List"&gt;1b3707b8472231107b748a5f746d43f8&lt;/macroponent&gt;&lt;name&gt;List CRUD &lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[
+    
+]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({api, event, imports}) {
+  let type = '';
+	if(event.name === "NOW_RECORD_LIST_CONNECTED#SAVE_AS_REQUESTED") {
+		type = "CREATE";
+	}
+	else if (event.name  ===  "NOW_RECORD_LIST_CONNECTED#DELETE_REQUESTED") {
+		type = "DESTROY";
+	}
+	else if (event.name  ===  "NOW_RECORD_LIST_CONNECTED#RENAME_REQUESTED" ||  event.name  ===  "NOW_RECORD_LIST_CONNECTED#EDIT_COLUMNS_REQUESTED" || event.name  === "NOW_RECORD_LIST_CONNECTED#SAVE_REQUESTED") {
+		type = "UPDATE";
+	}
+
+	const CRUD = {
+		type: type,
+		options: event.payload.update,
+		timestamp: event.payload.timestamp
+	};
+	
+	api.setState('CRUD', CRUD);
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;1.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;kiril.shandaliuk&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-14 13:19:27&lt;/sys_created_on&gt;&lt;sys_id&gt;a737cfb8472231107b748a5f746d437d&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;List CRUD &lt;/sys_name&gt;&lt;sys_package display_value="Finance Request" source="x_1178586_financ_0"&gt;2194808c472231107b748a5f746d43fd&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Finance Request"&gt;2194808c472231107b748a5f746d43fd&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_a737cfb8472231107b748a5f746d437d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;kiril.shandaliuk&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-14 13:19:27&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-291857045</payload_hash>
+        <record_name>List CRUD </record_name>
+        <reverted_from/>
+        <source>3194c08c472231107b748a5f746d4301</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kiril.shandaliuk</sys_created_by>
+        <sys_created_on>2023-11-14 13:19:27</sys_created_on>
+        <sys_id>e737cfb8472231107b748a5f746d437f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18bcdfc9fd50000001</sys_recorded_at>
+        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+        <sys_updated_on>2023-11-14 13:19:27</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>2f37cfb833223110320234e83af2ac7e</update_guid>
+        <update_guid_history>2f37cfb833223110320234e83af2ac7e:-291857045</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kiril.shandaliuk</sys_created_by>
+        <sys_created_on>2023-11-14 13:22:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>ea60d54890b647ccae9f0e02bbde5010</sys_id>
+        <sys_metadata>a737cfb8472231107b748a5f746d437d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>List CRUD </sys_name>
+        <sys_package display_value="Finance Request" source="x_1178586_financ_0">2194808c472231107b748a5f746d43fd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Finance Request">2194808c472231107b748a5f746d43fd</sys_scope>
+        <sys_scope_delete display_value="">c3e754edfef844aca6c7ae07ee076d41</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_a737cfb8472231107b748a5f746d437d</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_a737cfb8472231107b748a5f746d437d">e737cfb8472231107b748a5f746d437f</sys_update_version>
+        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+        <sys_updated_on>2023-11-14 13:22:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

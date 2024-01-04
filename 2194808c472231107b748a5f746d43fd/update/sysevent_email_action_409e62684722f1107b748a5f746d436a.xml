@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_1178586_financ_0_finance_request</collection>
+        <condition table="x_1178586_financ_0_finance_request">stateIN4,5,6^EQ<item display_value="4,5,6" endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="4,5,6"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description>Notification sent when request in closed</description>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<h1 class="title">Your request was closed</h1>
+<div class="content-text-wrapper">
+<p>Hi,</p>
+<p><span class="text-bit">${number}</span> has been marked complete and was closed.</p>
+<p>You can view your request to see past activity and updates.</p>
+<a class="link" href="/sp?id=ticket&amp;table=x_1178586_financ_0_finance_request&amp;sys_id=${sys_id}">View request</a>
+<p>Need something else? <a title="Make another Request" href="/x_1178586_financ_0_finance_request.do?sys_id=-1&amp;sys_is_list=true&amp;sys_target=x_1178586_financ_0_finance_request&amp;sysparm_checked_items=&amp;sysparm_fixed_query=&amp;sysparm_group_sort=&amp;sysparm_list_css=&amp;sysparm_query=&amp;sysparm_referring_url=x_1178586_financ_0_finance_request_list.do&amp;sysparm_target=&amp;sysparm_view=">Make another Request</a></p>
+<p>&nbsp;</p>
+<h2 class="about">About this request</h2>
+<p>Short description: <span class="text-bit">${short_description}</span></p>
+<p>Closed by: <span class="text-bit">${closed_by}</span></p>
+<p>Closing notes: <span class="text-bit">${close_notes}</span></p>
+<p>&nbsp;</p>
+<p>Thank you,</p>
+<p>Finance Team</p>
+</div>
+<style>
+      .title {
+        position: relative;
+        text-align: center;
+        margin-bottom: 40px;
+        margin-top: 0;
+        font-size: 28px;
+      }
+      .title::after {
+        content: '';
+        width: 100%;
+        height: 2px;
+        background-color: #edeff1;
+        position: absolute;
+        bottom: -20px;
+        right: 0px;
+        border-radius: 5px;
+      }
+  	  .content-text-wrapper {
+        font-size: 14px;
+      }
+  	  .about {
+  	  	font-size: 18px;
+        font-weight: 800;
+  	  }
+  	  .link {
+        display: inline-flex;
+        align-items: center;
+        padding: 7px 12px;
+        background-color: #4e56b9;
+        color: #ffffff;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+      }
+      .link:hover,
+      .link:focus {
+        color: #ffffff;
+        background-color: #272949;
+      }
+  	  .text-bit {
+      	font-weight: 600;
+      }
+    </style>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Request Closed</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>opened_for,opened_by</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Your Finance Request ${number} was closed.</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>kiril.shandaliuk</sys_created_by>
+        <sys_created_on>2023-11-13 16:53:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>409e62684722f1107b748a5f746d436a</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Request Closed</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Finance Request" source="x_1178586_financ_0">2194808c472231107b748a5f746d43fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Request">2194808c472231107b748a5f746d43fd</sys_scope>
+        <sys_update_name>sysevent_email_action_409e62684722f1107b748a5f746d436a</sys_update_name>
+        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+        <sys_updated_on>2023-12-29 12:34:33</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Finance Request Template">683e792547e231107b748a5f746d43a6</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

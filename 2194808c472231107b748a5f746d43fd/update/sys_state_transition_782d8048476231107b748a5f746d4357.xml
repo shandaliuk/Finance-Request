@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_state_transition">
+    <sys_state_transition action="INSERT_OR_UPDATE">
+        <description>Appears when state is "Work in Progress"</description>
+        <enter_condition table="x_1178586_financ_0_finance_request">state=2^EQ<item display_value="Work in Progress" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="2"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </enter_condition>
+        <exit_condition/>
+        <order/>
+        <state>6</state>
+        <state_label>Closed Complete</state_label>
+        <state_model display_value="Finance Request State Model">69ab4044476231107b748a5f746d43d6</state_model>
+        <sys_class_name>sys_state_transition</sys_class_name>
+        <sys_created_by>kiril.shandaliuk</sys_created_by>
+        <sys_created_on>2023-11-11 15:51:44</sys_created_on>
+        <sys_id>782d8048476231107b748a5f746d4357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Closed Complete</sys_name>
+        <sys_package display_value="Finance Request" source="x_1178586_financ_0">2194808c472231107b748a5f746d43fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Request">2194808c472231107b748a5f746d43fd</sys_scope>
+        <sys_update_name>sys_state_transition_782d8048476231107b748a5f746d4357</sys_update_name>
+        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+        <sys_updated_on>2023-11-11 15:51:44</sys_updated_on>
+        <terminal_state>false</terminal_state>
+    </sys_state_transition>
+</record_update>

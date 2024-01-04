@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>kiril.shandaliuk</sys_created_by>
+        <sys_created_on>2024-01-02 13:46:32</sys_created_on>
+        <sys_id>4e53af6c472731107b748a5f746d4391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GetRequestorInfo.admin</sys_name>
+        <sys_package display_value="Finance Request" source="x_1178586_financ_0">2194808c472231107b748a5f746d43fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Request">2194808c472231107b748a5f746d43fd</sys_scope>
+        <sys_security_acl display_value="GetRequestorInfo">4e53e3a8472731107b748a5f746d436d</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_4e53af6c472731107b748a5f746d4391</sys_update_name>
+        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+        <sys_updated_on>2024-01-02 13:46:32</sys_updated_on>
+        <sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

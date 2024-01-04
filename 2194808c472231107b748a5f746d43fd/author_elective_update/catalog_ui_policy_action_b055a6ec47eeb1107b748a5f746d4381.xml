@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Create Finance Request">31ac522447eeb1107b748a5f746d43b9</catalog_item>
+        <catalog_variable>IO:0d2262e847eeb1107b748a5f746d43ef</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>kiril.shandaliuk</sys_created_by>
+        <sys_created_on>2023-11-13 16:12:55</sys_created_on>
+        <sys_id>b055a6ec47eeb1107b748a5f746d4381</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>subcategory</sys_name>
+        <sys_package display_value="Finance Request" source="x_1178586_financ_0">2194808c472231107b748a5f746d43fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Request">2194808c472231107b748a5f746d43fd</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_b055a6ec47eeb1107b748a5f746d4381</sys_update_name>
+        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+        <sys_updated_on>2023-11-13 16:12:55</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make subcategory read-only when category isn't chosen.">791562ec47eeb1107b748a5f746d43fb</ui_policy>
+        <variable>subcategory</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Finance Request">2194808c472231107b748a5f746d43fd</application>
+        <file_path/>
+        <instance_id>15b38ff0db2313c44c1ff70fbf96190a</instance_id>
+        <instance_name>dev66935</instance_name>
+        <name>catalog_ui_policy_action_b055a6ec47eeb1107b748a5f746d4381</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Create Finance Request">31ac522447eeb1107b748a5f746d43b9</catalog_item><catalog_variable>IO:0d2262e847eeb1107b748a5f746d43ef</catalog_variable><cleared>false</cleared><disabled>true</disabled><field/><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>kiril.shandaliuk</sys_created_by><sys_created_on>2023-11-13 16:12:55</sys_created_on><sys_id>b055a6ec47eeb1107b748a5f746d4381</sys_id><sys_mod_count>0</sys_mod_count><sys_name>subcategory</sys_name><sys_package display_value="Finance Request" source="x_1178586_financ_0">2194808c472231107b748a5f746d43fd</sys_package><sys_policy/><sys_scope display_value="Finance Request">2194808c472231107b748a5f746d43fd</sys_scope><sys_update_name>catalog_ui_policy_action_b055a6ec47eeb1107b748a5f746d4381</sys_update_name><sys_updated_by>kiril.shandaliuk</sys_updated_by><sys_updated_on>2023-11-13 16:12:55</sys_updated_on><table/><ui_policy display_value="Make subcategory read-only when category isn't chosen.">791562ec47eeb1107b748a5f746d43fb</ui_policy><variable>subcategory</variable><variable_set/><visible>ignore</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>999828324</payload_hash>
+        <record_name>subcategory</record_name>
+        <reverted_from/>
+        <source>3194c08c472231107b748a5f746d4301</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kiril.shandaliuk</sys_created_by>
+        <sys_created_on>2023-11-13 16:12:56</sys_created_on>
+        <sys_id>0b55e6ec47eeb1107b748a5f746d4369</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18bc97517fa0000001</sys_recorded_at>
+        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+        <sys_updated_on>2023-11-13 16:12:56</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>4f55e6ec70eeb11049b45b7fb484be68</update_guid>
+        <update_guid_history>4f55e6ec70eeb11049b45b7fb484be68:999828324</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="subcategory">d7c562204722f1107b748a5f746d4343</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kiril.shandaliuk</sys_created_by>
+        <sys_created_on>2023-11-13 16:14:52</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>6106c3f38a024c14a0dc5e78e9b3ed24</sys_id>
+        <sys_metadata>b055a6ec47eeb1107b748a5f746d4381</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>subcategory</sys_name>
+        <sys_package display_value="Finance Request" source="x_1178586_financ_0">2194808c472231107b748a5f746d43fd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Finance Request">2194808c472231107b748a5f746d43fd</sys_scope>
+        <sys_scope_delete display_value="">c3e754edfef844aca6c7ae07ee076d41</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_b055a6ec47eeb1107b748a5f746d4381</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_b055a6ec47eeb1107b748a5f746d4381">0b55e6ec47eeb1107b748a5f746d4369</sys_update_version>
+        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+        <sys_updated_on>2023-11-13 16:14:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

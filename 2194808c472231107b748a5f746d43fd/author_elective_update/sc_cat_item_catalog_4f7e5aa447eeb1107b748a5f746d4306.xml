@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Create Finance Request">31ac522447eeb1107b748a5f746d43b9</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>kiril.shandaliuk</sys_created_by>
+        <sys_created_on>2023-11-13 15:42:54</sys_created_on>
+        <sys_id>4f7e5aa447eeb1107b748a5f746d4306</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Create Finance Request</sys_name>
+        <sys_package display_value="Finance Request" source="x_1178586_financ_0">2194808c472231107b748a5f746d43fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Request">2194808c472231107b748a5f746d43fd</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_4f7e5aa447eeb1107b748a5f746d4306</sys_update_name>
+        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+        <sys_updated_on>2023-11-13 15:42:54</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Finance Request">2194808c472231107b748a5f746d43fd</application>
+        <file_path/>
+        <instance_id>15b38ff0db2313c44c1ff70fbf96190a</instance_id>
+        <instance_name>dev66935</instance_name>
+        <name>sc_cat_item_catalog_4f7e5aa447eeb1107b748a5f746d4306</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Create Finance Request">31ac522447eeb1107b748a5f746d43b9</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>kiril.shandaliuk</sys_created_by><sys_created_on>2023-11-13 15:42:54</sys_created_on><sys_id>4f7e5aa447eeb1107b748a5f746d4306</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Create Finance Request</sys_name><sys_package display_value="Finance Request" source="x_1178586_financ_0">2194808c472231107b748a5f746d43fd</sys_package><sys_policy/><sys_scope display_value="Finance Request">2194808c472231107b748a5f746d43fd</sys_scope><sys_update_name>sc_cat_item_catalog_4f7e5aa447eeb1107b748a5f746d4306</sys_update_name><sys_updated_by>kiril.shandaliuk</sys_updated_by><sys_updated_on>2023-11-13 15:42:54</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>1075687502</payload_hash>
+        <record_name>Service Catalog.Create Finance Request</record_name>
+        <reverted_from/>
+        <source>3194c08c472231107b748a5f746d4301</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kiril.shandaliuk</sys_created_by>
+        <sys_created_on>2023-11-13 15:42:54</sys_created_on>
+        <sys_id>037e5aa447eeb1107b748a5f746d430a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18bc95999e60000001</sys_recorded_at>
+        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+        <sys_updated_on>2023-11-13 15:42:54</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>837e5aa43deeb110bfc3fc054dc0b809</update_guid>
+        <update_guid_history>837e5aa43deeb110bfc3fc054dc0b809:1075687502</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Create Finance Request">fbbedea447eeb1107b748a5f746d4319</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kiril.shandaliuk</sys_created_by>
+        <sys_created_on>2023-11-13 15:44:03</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>0486b36948f449ceaaacfda2b1a74271</sys_id>
+        <sys_metadata>4f7e5aa447eeb1107b748a5f746d4306</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Create Finance Request</sys_name>
+        <sys_package display_value="Finance Request" source="x_1178586_financ_0">2194808c472231107b748a5f746d43fd</sys_package>
+        <sys_parent display_value="Create Finance Request">31ac522447eeb1107b748a5f746d43b9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Finance Request">2194808c472231107b748a5f746d43fd</sys_scope>
+        <sys_scope_delete display_value="">c3e754edfef844aca6c7ae07ee076d41</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_4f7e5aa447eeb1107b748a5f746d4306</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_4f7e5aa447eeb1107b748a5f746d4306">037e5aa447eeb1107b748a5f746d430a</sys_update_version>
+        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+        <sys_updated_on>2023-11-13 15:44:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

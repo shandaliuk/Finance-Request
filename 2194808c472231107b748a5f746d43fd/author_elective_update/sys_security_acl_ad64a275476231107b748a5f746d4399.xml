@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition table="x_1178586_financ_0_finance_request">opened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORopened_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="opened_by" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="false" field="opened_for" goto="false" newquery="false" operator="DYNAMIC" or="true" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description>Allow write for records in x_1178586_financ_0_finance_request, if the ACL condition (opened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORopened_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ) evaluates to true.</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1178586_financ_0_finance_request</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>kiril.shandaliuk</sys_created_by>
+        <sys_created_on>2023-11-17 13:21:42</sys_created_on>
+        <sys_id>ad64a275476231107b748a5f746d4399</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>x_1178586_financ_0_finance_request</sys_name>
+        <sys_package display_value="Finance Request" source="x_1178586_financ_0">2194808c472231107b748a5f746d43fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Request">2194808c472231107b748a5f746d43fd</sys_scope>
+        <sys_update_name>sys_security_acl_ad64a275476231107b748a5f746d4399</sys_update_name>
+        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+        <sys_updated_on>2023-11-17 13:38:20</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Finance Request">2194808c472231107b748a5f746d43fd</application>
+        <file_path/>
+        <instance_id>15b38ff0db2313c44c1ff70fbf96190a</instance_id>
+        <instance_name>dev66935</instance_name>
+        <name>sys_security_acl_ad64a275476231107b748a5f746d4399</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition table="x_1178586_financ_0_finance_request">opened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORopened_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="opened_by" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/><item endquery="false" field="opened_for" goto="false" newquery="false" operator="DYNAMIC" or="true" value="90d1921e5f510100a9ad2572f2b477fe"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><description>Allow write for records in x_1178586_financ_0_finance_request, if the ACL condition (opened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORopened_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ) evaluates to true.</description><local_or_existing>Local</local_or_existing><name>x_1178586_financ_0_finance_request</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>kiril.shandaliuk</sys_created_by><sys_created_on>2023-11-17 13:21:42</sys_created_on><sys_id>ad64a275476231107b748a5f746d4399</sys_id><sys_mod_count>4</sys_mod_count><sys_name>x_1178586_financ_0_finance_request</sys_name><sys_package display_value="Finance Request" source="x_1178586_financ_0">2194808c472231107b748a5f746d43fd</sys_package><sys_policy/><sys_scope display_value="Finance Request">2194808c472231107b748a5f746d43fd</sys_scope><sys_update_name>sys_security_acl_ad64a275476231107b748a5f746d4399</sys_update_name><sys_updated_by>kiril.shandaliuk</sys_updated_by><sys_updated_on>2023-11-17 13:38:20</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-21484156</payload_hash>
+        <record_name>x_1178586_financ_0_finance_request</record_name>
+        <reverted_from/>
+        <source>3194c08c472231107b748a5f746d4301</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kiril.shandaliuk</sys_created_by>
+        <sys_created_on>2023-11-17 13:38:20</sys_created_on>
+        <sys_id>1958aab9476231107b748a5f746d43e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18bdd80ff050000001</sys_recorded_at>
+        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+        <sys_updated_on>2023-11-17 13:38:20</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>1158aab9b8623110d76e95dbb5a85ce9</update_guid>
+        <update_guid_history>1158aab9b8623110d76e95dbb5a85ce9:-21484156,0a47e679906231102ee723d22c580932:653932647,a1d62a39de62311071810429fecaba99:-21484156,d5e4a2b5b3623110c5f4f87aba8c3a0e:653932647,71846e758a623110a093856da56a8821:267344747</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kiril.shandaliuk</sys_created_by>
+        <sys_created_on>2023-11-17 14:00:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>d4f621632c9a421884b82362d3a64c90</sys_id>
+        <sys_metadata>ad64a275476231107b748a5f746d4399</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1178586_financ_0_finance_request</sys_name>
+        <sys_package display_value="Finance Request" source="x_1178586_financ_0">2194808c472231107b748a5f746d43fd</sys_package>
+        <sys_parent display_value="x_1178586_financ_0_finance_request">a88584cc472231107b748a5f746d430e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Finance Request">2194808c472231107b748a5f746d43fd</sys_scope>
+        <sys_scope_delete display_value="">c3e754edfef844aca6c7ae07ee076d41</sys_scope_delete>
+        <sys_update_name>sys_security_acl_ad64a275476231107b748a5f746d4399</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_ad64a275476231107b748a5f746d4399">1958aab9476231107b748a5f746d43e9</sys_update_version>
+        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+        <sys_updated_on>2023-11-17 14:00:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

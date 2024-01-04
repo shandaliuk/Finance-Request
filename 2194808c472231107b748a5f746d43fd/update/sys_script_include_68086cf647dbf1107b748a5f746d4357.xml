@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1178586_financ_0.GetFinanceTeamGroupMember</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Get users from the "Finance Team" group to filter them in the appropriate field in the form. </description>
+        <name>GetFinanceTeamGroupMember</name>
+        <script><![CDATA[var GetFinanceTeamGroupMember = Class.create();
+GetFinanceTeamGroupMember.prototype = {
+    getFinanceTeamMember: function() {
+        var x = 'd27110cc476231107b748a5f746d43b3';
+        var user_array = [];
+        var getMembers = new GlideRecord('sys_user_grmember');
+        getMembers.addQuery('group', x);
+        getMembers.query();
+        while (getMembers.next()) {
+            user_array.push(getMembers.user + '');
+        }
+        return 'sys_idIN' + user_array.toString();
+    }
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>kiril.shandaliuk</sys_created_by>
+        <sys_created_on>2023-12-27 13:47:49</sys_created_on>
+        <sys_id>68086cf647dbf1107b748a5f746d4357</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>GetFinanceTeamGroupMember</sys_name>
+        <sys_package display_value="Finance Request" source="x_1178586_financ_0">2194808c472231107b748a5f746d43fd</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Finance Request">2194808c472231107b748a5f746d43fd</sys_scope>
+        <sys_update_name>sys_script_include_68086cf647dbf1107b748a5f746d4357</sys_update_name>
+        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+        <sys_updated_on>2023-12-27 13:51:52</sys_updated_on>
+    </sys_script_include>
+</record_update>

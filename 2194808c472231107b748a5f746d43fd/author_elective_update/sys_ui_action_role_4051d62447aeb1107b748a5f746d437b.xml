@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_role">
+    <sys_ui_action_role action="DELETE">
+        <sys_class_name>sys_ui_action_role</sys_class_name>
+        <sys_created_by>kiril.shandaliuk</sys_created_by>
+        <sys_created_on>2023-11-13 14:45:40</sys_created_on>
+        <sys_id>4051d62447aeb1107b748a5f746d437b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cancel.x_1178586_financ_0.agent</sys_name>
+        <sys_package display_value="Finance Request" source="x_1178586_financ_0">2194808c472231107b748a5f746d43fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Request">2194808c472231107b748a5f746d43fd</sys_scope>
+        <sys_ui_action display_value="Cancel">f5cbcae8476eb1107b748a5f746d43e1</sys_ui_action>
+        <sys_update_name>sys_ui_action_role_4051d62447aeb1107b748a5f746d437b</sys_update_name>
+        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+        <sys_updated_on>2023-11-13 14:45:40</sys_updated_on>
+        <sys_user_role display_value="x_1178586_financ_0.agent" name="x_1178586_financ_0.agent">7594c08c472231107b748a5f746d4309</sys_user_role>
+    </sys_ui_action_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Finance Request">2194808c472231107b748a5f746d43fd</application>
+        <file_path/>
+        <instance_id>15b38ff0db2313c44c1ff70fbf96190a</instance_id>
+        <instance_name>dev66935</instance_name>
+        <name>sys_ui_action_role_4051d62447aeb1107b748a5f746d437b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_role"><sys_ui_action_role action="INSERT_OR_UPDATE"><sys_class_name>sys_ui_action_role</sys_class_name><sys_created_by>kiril.shandaliuk</sys_created_by><sys_created_on>2023-11-13 14:45:40</sys_created_on><sys_id>4051d62447aeb1107b748a5f746d437b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Cancel.x_1178586_financ_0.agent</sys_name><sys_package display_value="Finance Request" source="x_1178586_financ_0">2194808c472231107b748a5f746d43fd</sys_package><sys_policy/><sys_scope display_value="Finance Request">2194808c472231107b748a5f746d43fd</sys_scope><sys_ui_action display_value="Cancel">f5cbcae8476eb1107b748a5f746d43e1</sys_ui_action><sys_update_name>sys_ui_action_role_4051d62447aeb1107b748a5f746d437b</sys_update_name><sys_updated_by>kiril.shandaliuk</sys_updated_by><sys_updated_on>2023-11-13 14:45:40</sys_updated_on><sys_user_role display_value="x_1178586_financ_0.agent" name="x_1178586_financ_0.agent">7594c08c472231107b748a5f746d4309</sys_user_role></sys_ui_action_role></record_update>]]></payload>
+        <payload_hash>-800096869</payload_hash>
+        <record_name>Cancel.x_1178586_financ_0.agent</record_name>
+        <reverted_from/>
+        <source>3194c08c472231107b748a5f746d4301</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kiril.shandaliuk</sys_created_by>
+        <sys_created_on>2023-11-13 14:45:40</sys_created_on>
+        <sys_id>3861162447aeb1107b748a5f746d43c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18bc92534810000001</sys_recorded_at>
+        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+        <sys_updated_on>2023-11-13 14:45:40</sys_updated_on>
+        <type>UI Action Role</type>
+        <update_guid>7c611624ccaeb110612c8fb6d4c918c2</update_guid>
+        <update_guid_history>7c611624ccaeb110612c8fb6d4c918c2:-800096869</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kiril.shandaliuk</sys_created_by>
+        <sys_created_on>2023-11-13 14:46:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action_role">sys_ui_action_role</sys_db_object>
+        <sys_id>0af5fb2aa6c84853811a491c096fd1f9</sys_id>
+        <sys_metadata>4051d62447aeb1107b748a5f746d437b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cancel.x_1178586_financ_0.agent</sys_name>
+        <sys_package display_value="Finance Request" source="x_1178586_financ_0">2194808c472231107b748a5f746d43fd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Finance Request">2194808c472231107b748a5f746d43fd</sys_scope>
+        <sys_scope_delete display_value="">c3e754edfef844aca6c7ae07ee076d41</sys_scope_delete>
+        <sys_update_name>sys_ui_action_role_4051d62447aeb1107b748a5f746d437b</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_role_4051d62447aeb1107b748a5f746d437b">3861162447aeb1107b748a5f746d43c3</sys_update_version>
+        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+        <sys_updated_on>2023-11-13 14:46:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="Finance Request App Config">826483f4e4223110e579bbfb486a8d5f</app_config>
+        <description/>
+        <extension_point/>
+        <fields>globalSearchViewConfigId</fields>
+        <icon/>
+        <name>Search</name>
+        <optional_parameters>searchTerm</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>search</route_type>
+        <screen_type display_value="Search">0a6483f4f022311089378cdb44e8ca53</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 13:07:05</sys_created_on>
+        <sys_id>026483f418223110f672c8e01189f452</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Search</sys_name>
+        <sys_package display_value="Finance Request" source="x_1178586_financ_0">2194808c472231107b748a5f746d43fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Request">2194808c472231107b748a5f746d43fd</sys_scope>
+        <sys_update_name>sys_ux_app_route_026483f418223110f672c8e01189f452</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 13:07:05</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Finance Request">2194808c472231107b748a5f746d43fd</application>
+        <file_path/>
+        <instance_id>15b38ff0db2313c44c1ff70fbf96190a</instance_id>
+        <instance_name>dev66935</instance_name>
+        <name>sys_ux_app_route_026483f418223110f672c8e01189f452</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="Finance Request App Config">826483f4e4223110e579bbfb486a8d5f</app_config><description/><extension_point/><fields>globalSearchViewConfigId</fields><icon/><name>Search</name><optional_parameters>searchTerm</optional_parameters><order>0</order><parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent><parent_macroponent_composition_element_id/><route_type>search</route_type><screen_type display_value="Search">0a6483f4f022311089378cdb44e8ca53</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-14 13:07:05</sys_created_on><sys_id>026483f418223110f672c8e01189f452</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Search</sys_name><sys_package display_value="Finance Request" source="x_1178586_financ_0">2194808c472231107b748a5f746d43fd</sys_package><sys_policy/><sys_scope display_value="Finance Request">2194808c472231107b748a5f746d43fd</sys_scope><sys_update_name>sys_ux_app_route_026483f418223110f672c8e01189f452</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-14 13:07:05</sys_updated_on></sys_ux_app_route></record_update>]]></payload>
+        <payload_hash>25129470</payload_hash>
+        <record_name>Search</record_name>
+        <reverted_from/>
+        <source>ad319a00471231107b748a5f746d4310</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-10-30 15:12:14</sys_created_on>
+        <sys_id>7529da75472231107b748a5f746d438c</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18b81247cb00000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX App Route</type>
+        <update_guid>3529da753b2231101f212ed154f3e28c</update_guid>
+        <update_guid_history>3529da753b2231101f212ed154f3e28c:25129470</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kiril.shandaliuk</sys_created_by>
+        <sys_created_on>2023-11-17 12:32:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>4869942e6c964b86acc03ec05b7947e4</sys_id>
+        <sys_metadata>026483f418223110f672c8e01189f452</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Search</sys_name>
+        <sys_package display_value="Finance Request" source="x_1178586_financ_0">2194808c472231107b748a5f746d43fd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Finance Request">2194808c472231107b748a5f746d43fd</sys_scope>
+        <sys_scope_delete display_value="">c3e754edfef844aca6c7ae07ee076d41</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_026483f418223110f672c8e01189f452</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_026483f418223110f672c8e01189f452">7529da75472231107b748a5f746d438c</sys_update_version>
+        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+        <sys_updated_on>2023-11-17 12:32:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="Finance Request App Config">826483f4e4223110e579bbfb486a8d5f</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>All Dashboards</name>
+        <optional_parameters>filter</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>all-dashboards</route_type>
+        <screen_type display_value="All Dashboards">8a6483f4f3223110da92f24f1f4e0051</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 13:07:04</sys_created_on>
+        <sys_id>066483f4a8223110aa4c38e65c2a7451</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All Dashboards</sys_name>
+        <sys_package display_value="Finance Request" source="x_1178586_financ_0">2194808c472231107b748a5f746d43fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Request">2194808c472231107b748a5f746d43fd</sys_scope>
+        <sys_update_name>sys_ux_app_route_066483f4a8223110aa4c38e65c2a7451</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 13:07:04</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Finance Request">2194808c472231107b748a5f746d43fd</application>
+        <file_path/>
+        <instance_id>15b38ff0db2313c44c1ff70fbf96190a</instance_id>
+        <instance_name>dev66935</instance_name>
+        <name>sys_ux_app_route_066483f4a8223110aa4c38e65c2a7451</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="Finance Request App Config">826483f4e4223110e579bbfb486a8d5f</app_config><description/><extension_point/><fields/><icon/><name>All Dashboards</name><optional_parameters>filter</optional_parameters><order>0</order><parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent><parent_macroponent_composition_element_id/><route_type>all-dashboards</route_type><screen_type display_value="All Dashboards">8a6483f4f3223110da92f24f1f4e0051</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-14 13:07:04</sys_created_on><sys_id>066483f4a8223110aa4c38e65c2a7451</sys_id><sys_mod_count>0</sys_mod_count><sys_name>All Dashboards</sys_name><sys_package display_value="Finance Request" source="x_1178586_financ_0">2194808c472231107b748a5f746d43fd</sys_package><sys_policy/><sys_scope display_value="Finance Request">2194808c472231107b748a5f746d43fd</sys_scope><sys_update_name>sys_ux_app_route_066483f4a8223110aa4c38e65c2a7451</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-14 13:07:04</sys_updated_on></sys_ux_app_route></record_update>]]></payload>
+        <payload_hash>-121206661</payload_hash>
+        <record_name>All Dashboards</record_name>
+        <reverted_from/>
+        <source>ad319a00471231107b748a5f746d4310</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-10-30 15:12:14</sys_created_on>
+        <sys_id>b4491e75472231107b748a5f746d43c5</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18b81247cb00000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX App Route</type>
+        <update_guid>74491e758c2231106856344ffd32cdc5</update_guid>
+        <update_guid_history>74491e758c2231106856344ffd32cdc5:-121206661</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kiril.shandaliuk</sys_created_by>
+        <sys_created_on>2023-11-17 12:32:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>0fe12669ad2341ac8889483543efe344</sys_id>
+        <sys_metadata>066483f4a8223110aa4c38e65c2a7451</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All Dashboards</sys_name>
+        <sys_package display_value="Finance Request" source="x_1178586_financ_0">2194808c472231107b748a5f746d43fd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Finance Request">2194808c472231107b748a5f746d43fd</sys_scope>
+        <sys_scope_delete display_value="">c3e754edfef844aca6c7ae07ee076d41</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_066483f4a8223110aa4c38e65c2a7451</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_066483f4a8223110aa4c38e65c2a7451">b4491e75472231107b748a5f746d43c5</sys_update_version>
+        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+        <sys_updated_on>2023-11-17 12:32:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

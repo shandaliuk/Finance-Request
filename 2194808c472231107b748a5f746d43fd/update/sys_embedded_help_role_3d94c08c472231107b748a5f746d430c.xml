@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_1178586_financ_0.user" name="x_1178586_financ_0.user">3194c08c472231107b748a5f746d430c</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>kiril.shandaliuk</sys_created_by>
+        <sys_created_on>2023-11-11 15:13:34</sys_created_on>
+        <sys_id>3d94c08c472231107b748a5f746d430c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3194c08c472231107b748a5f746d430c</sys_name>
+        <sys_package display_value="Finance Request" source="x_1178586_financ_0">2194808c472231107b748a5f746d43fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Request">2194808c472231107b748a5f746d43fd</sys_scope>
+        <sys_update_name>sys_embedded_help_role_3d94c08c472231107b748a5f746d430c</sys_update_name>
+        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+        <sys_updated_on>2023-11-11 15:13:34</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

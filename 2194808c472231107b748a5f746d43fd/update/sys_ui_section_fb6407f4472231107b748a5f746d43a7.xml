@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="fb6407f4472231107b748a5f746d43a7" sys_domain="global" table="x_1178586_financ_0_finance_request" version="3" view="workspace-finance-request-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>process_flow.xml</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-14 13:07:11</sys_created_on>
+            <sys_id>f76407f4472231107b748a5f746d43ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Process Flow">2dc90444476231107b748a5f746d43d3</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_1178586_financ_0_finance_request" sys_domain="global" view="026483f4ad223110570a271aec6ab755">fb6407f4472231107b748a5f746d43a7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-14 13:07:11</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-14 13:07:11</sys_created_on>
+            <sys_id>f36407f4472231107b748a5f746d43ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1178586_financ_0_finance_request" sys_domain="global" view="026483f4ad223110570a271aec6ab755">fb6407f4472231107b748a5f746d43a7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-14 13:07:11</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-14 13:07:11</sys_created_on>
+            <sys_id>3f6407f4472231107b748a5f746d43aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1178586_financ_0_finance_request" sys_domain="global" view="026483f4ad223110570a271aec6ab755">fb6407f4472231107b748a5f746d43a7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-14 13:07:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_for</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-14 13:07:11</sys_created_on>
+            <sys_id>7f6407f4472231107b748a5f746d43ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1178586_financ_0_finance_request" sys_domain="global" view="026483f4ad223110570a271aec6ab755">fb6407f4472231107b748a5f746d43a7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-14 13:07:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-14 13:07:11</sys_created_on>
+            <sys_id>776407f4472231107b748a5f746d43ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1178586_financ_0_finance_request" sys_domain="global" view="026483f4ad223110570a271aec6ab755">fb6407f4472231107b748a5f746d43a7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-14 13:07:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>subcategory</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-14 13:07:11</sys_created_on>
+            <sys_id>ff6407f4472231107b748a5f746d43ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1178586_financ_0_finance_request" sys_domain="global" view="026483f4ad223110570a271aec6ab755">fb6407f4472231107b748a5f746d43a7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-14 13:07:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-14 13:07:11</sys_created_on>
+            <sys_id>7b6407f4472231107b748a5f746d43ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1178586_financ_0_finance_request" sys_domain="global" view="026483f4ad223110570a271aec6ab755">fb6407f4472231107b748a5f746d43a7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-14 13:07:11</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-14 13:07:11</sys_created_on>
+            <sys_id>736407f4472231107b748a5f746d43ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1178586_financ_0_finance_request" sys_domain="global" view="026483f4ad223110570a271aec6ab755">fb6407f4472231107b748a5f746d43a7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-14 13:07:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-14 13:07:11</sys_created_on>
+            <sys_id>fb6407f4472231107b748a5f746d43ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1178586_financ_0_finance_request" sys_domain="global" view="026483f4ad223110570a271aec6ab755">fb6407f4472231107b748a5f746d43a7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-14 13:07:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-14 13:07:11</sys_created_on>
+            <sys_id>776407f4472231107b748a5f746d43ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1178586_financ_0_finance_request" sys_domain="global" view="026483f4ad223110570a271aec6ab755">fb6407f4472231107b748a5f746d43a7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-14 13:07:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-14 13:07:11</sys_created_on>
+            <sys_id>f36407f4472231107b748a5f746d43ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1178586_financ_0_finance_request" sys_domain="global" view="026483f4ad223110570a271aec6ab755">fb6407f4472231107b748a5f746d43a7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-14 13:07:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1178586_financ_0_finance_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-14 13:07:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fb6407f4472231107b748a5f746d43a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1178586_financ_0_finance_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Finance Request" source="x_1178586_financ_0">2194808c472231107b748a5f746d43fd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Finance Request">2194808c472231107b748a5f746d43fd</sys_scope>
+            <sys_update_name>sys_ui_section_fb6407f4472231107b748a5f746d43a7</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-14 13:07:10</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Workspace Finance Request 0" name="workspace-finance-request-0">026483f4ad223110570a271aec6ab755</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
