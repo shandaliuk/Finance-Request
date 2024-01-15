@@ -8,52 +8,50 @@
         <applies_target_record>false</applies_target_record>
         <applies_to>set</applies_to>
         <cat_item/>
-        <cat_variable>IO:7a302ab3474331107b748a5f746d430d</cat_variable>
+        <cat_variable/>
         <condition/>
         <description/>
         <field/>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Autofill user info onChange</name>
+        <name>Autofill user onLoad</name>
         <order/>
         <published_ref/>
-        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
-    if (isLoading || newValue == '') {
-        return;
-    }
+        <script><![CDATA[function onLoad() {
     var ga = new GlideAjax("GetRequestorInfo");
     ga.addParam("sysparm_name", "getInfo");
-	ga.addParam("sysparm_user", newValue);
     ga.getXML(ajaxResponse);
 
     function ajaxResponse(serverResponse) {
         var result = serverResponse.responseXML.getElementsByTagName("result");
         var phone = result[0].getAttribute("phone");
+        var user = result[0].getAttribute("user");
         var email = result[0].getAttribute("email");
         var location = result[0].getAttribute("location");
+        g_form.setValue('requested_for', user);
         g_form.setValue('phone', phone);
-        g_form.setValue('email', email);
+		g_form.setValue('email', email);
         g_form.setValue('location', location);
     }
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>kiril.shandaliuk</sys_created_by>
-        <sys_created_on>2024-01-02 14:11:34</sys_created_on>
+        <sys_created_on>2024-01-09 13:00:38</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>7c19afa0476731107b748a5f746d432e</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Autofill user info onChange</sys_name>
+        <sys_id>45eb57fa472b71107b748a5f746d43d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Autofill user onLoad</sys_name>
         <sys_overrides/>
         <sys_package display_value="Finance Request" source="x_1178586_financ_0">2194808c472231107b748a5f746d43fd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Finance Request">2194808c472231107b748a5f746d43fd</sys_scope>
-        <sys_update_name>catalog_script_client_7c19afa0476731107b748a5f746d432e</sys_update_name>
+        <sys_update_name>catalog_script_client_45eb57fa472b71107b748a5f746d43d3</sys_update_name>
         <sys_updated_by>kiril.shandaliuk</sys_updated_by>
-        <sys_updated_on>2024-01-02 14:19:14</sys_updated_on>
+        <sys_updated_on>2024-01-09 13:00:38</sys_updated_on>
         <table/>
-        <type>onChange</type>
+        <type>onLoad</type>
         <ui_type>10</ui_type>
         <variable_set display_value="Requester Information">735f5ab3474331107b748a5f746d43e7</variable_set>
         <view/>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>set</applies_to>
+        <cat_item/>
+        <cat_variable>IO:7a302ab3474331107b748a5f746d430d</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Autofill user info onChange</name>
+        <order/>
+        <published_ref/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue == '') {
+        return;
+    }
+    var ga = new GlideAjax("GetRequestorInfo");
+    ga.addParam("sysparm_name", "getInfo");
+	ga.addParam("sysparm_user", newValue);
+    ga.getXML(ajaxResponse);
+
+    function ajaxResponse(serverResponse) {
+        var result = serverResponse.responseXML.getElementsByTagName("result");
+        var phone = result[0].getAttribute("phone");
+        var email = result[0].getAttribute("email");
+        var location = result[0].getAttribute("location");
+        g_form.setValue('phone', phone);
+        g_form.setValue('email', email);
+        g_form.setValue('location', location);
+    }
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>kiril.shandaliuk</sys_created_by>
+        <sys_created_on>2024-01-02 14:11:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7c19afa0476731107b748a5f746d432e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Autofill user info onChange</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Finance Request" source="x_1178586_financ_0">2194808c472231107b748a5f746d43fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Request">2194808c472231107b748a5f746d43fd</sys_scope>
+        <sys_update_name>catalog_script_client_7c19afa0476731107b748a5f746d432e</sys_update_name>
+        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+        <sys_updated_on>2024-01-02 14:19:14</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <variable_set display_value="Requester Information">735f5ab3474331107b748a5f746d43e7</variable_set>
+        <view/>
+    </catalog_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Finance Request">2194808c472231107b748a5f746d43fd</application>
+        <file_path/>
+        <instance_id>15b38ff0db2313c44c1ff70fbf96190a</instance_id>
+        <instance_name>dev66935</instance_name>
+        <name>catalog_script_client_7c19afa0476731107b748a5f746d432e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;set&lt;/applies_to&gt;&lt;cat_item/&gt;&lt;cat_variable&gt;IO:7a302ab3474331107b748a5f746d430d&lt;/cat_variable&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Autofill user info onChange&lt;/name&gt;&lt;order/&gt;&lt;published_ref/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue == '') {
+        return;
+    }
+    var ga = new GlideAjax("GetRequestorInfo");
+    ga.addParam("sysparm_name", "getInfo");
+	ga.addParam("sysparm_user", newValue);
+    ga.getXML(ajaxResponse);
+
+    function ajaxResponse(serverResponse) {
+        var result = serverResponse.responseXML.getElementsByTagName("result");
+        var phone = result[0].getAttribute("phone");
+        var email = result[0].getAttribute("email");
+        var location = result[0].getAttribute("location");
+        g_form.setValue('phone', phone);
+        g_form.setValue('email', email);
+        g_form.setValue('location', location);
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;kiril.shandaliuk&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-02 14:11:34&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;7c19afa0476731107b748a5f746d432e&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Autofill user info onChange&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Finance Request" source="x_1178586_financ_0"&gt;2194808c472231107b748a5f746d43fd&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Finance Request"&gt;2194808c472231107b748a5f746d43fd&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_7c19afa0476731107b748a5f746d432e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;kiril.shandaliuk&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-02 14:19:14&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;variable_set display_value="Requester Information"&gt;735f5ab3474331107b748a5f746d43e7&lt;/variable_set&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1171552791</payload_hash>
+        <record_name>Autofill user info onChange</record_name>
+        <reverted_from/>
+        <source>3194c08c472231107b748a5f746d4301</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kiril.shandaliuk</sys_created_by>
+        <sys_created_on>2024-01-02 14:19:14</sys_created_on>
+        <sys_id>0dda6fa4476731107b748a5f746d4372</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cca8af7ea0000001</sys_recorded_at>
+        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+        <sys_updated_on>2024-01-02 14:19:14</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>05da6fa4fb6731109869f204985e9f72</update_guid>
+        <update_guid_history>05da6fa4fb6731109869f204985e9f72:1171552791,4aca23e4b1673110a992435e19bc746e:1915387930,697a27a438673110a21d0c487ada05b4:-2133132413,3429afa0b2673110fdc0761f15e38a24:382238822,3c19ab24606731109a6cd545a5e6be17:-402007962</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Autofill user info onChange">3ddb933e472b71107b748a5f746d43de</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kiril.shandaliuk</sys_created_by>
+        <sys_created_on>2024-01-09 13:00:04</sys_created_on>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>4a846f700d4f405587a7db61a5c272b9</sys_id>
+        <sys_metadata>7c19afa0476731107b748a5f746d432e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Autofill user info onChange</sys_name>
+        <sys_package display_value="Finance Request" source="x_1178586_financ_0">2194808c472231107b748a5f746d43fd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Finance Request">2194808c472231107b748a5f746d43fd</sys_scope>
+        <sys_scope_delete display_value="">c3e754edfef844aca6c7ae07ee076d41</sys_scope_delete>
+        <sys_update_name>catalog_script_client_7c19afa0476731107b748a5f746d432e</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_7c19afa0476731107b748a5f746d432e">0dda6fa4476731107b748a5f746d4372</sys_update_version>
+        <sys_updated_by>kiril.shandaliuk</sys_updated_by>
+        <sys_updated_on>2024-01-09 13:00:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
